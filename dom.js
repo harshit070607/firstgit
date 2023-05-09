@@ -13,3 +13,14 @@ for(var i = 0;i<c.length;i++)
 {
     c[i].style.fontWeight = '700';
 }
+
+var d = document.getElementsByClassName('list-group-item2')
+
+console.log(d);
+d[0].style.backgroundColor='red';
+
+var e = document.getElementsByTagName('li');
+console.log(e);
+e[4].style.fontWeight='900';
+
+
