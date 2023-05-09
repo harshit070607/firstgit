@@ -25,9 +25,16 @@ e[4].style.fontWeight='900';
 
 var f = document.querySelectorAll('li:nth-child(2)');
 
-f[0].style.backgroundColor='green';
+// f[0].style.backgroundColor='green';
+f[0].style.color = "green";
 
 var g = document.querySelectorAll('li:nth-child(3)');
-g[0].style.display='none';
+// g[0].style.display='none';
+
+var odd = document.querySelectorAll('li:nth-child(odd)');
+for(var i=0; i<odd.length ; i++)
+{
+    odd[i].style.backgroundColor="green";
+}
 
 
